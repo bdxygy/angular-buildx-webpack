@@ -80,7 +80,7 @@ export function customKarmaBuilder(
         fs.mkdirSync(snapshotDirectory);
       }
 
-      if (options.moduleCallback) {
+      if (options.webpack) {
         context.logger.info(`\nWrite original config snapshot callback`);
         fs.writeFileSync(
           fileConfigOriginalPath,
