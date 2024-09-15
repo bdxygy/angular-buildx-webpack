@@ -1,0 +1,19 @@
+{
+  "builders": {
+    "browser": {
+      "implementation": "./dist/browser.js",
+      "schema": "./browser-schema.json",
+      "description": "Custom Angular Browser Builder"
+    },
+    "dev-server": {
+      "implementation": "./dist/dev-server.js",
+      "schema": "./dev-server-schema.json",
+      "description": "Custom Angular Dev Server Builder"
+    },
+    "karma": {
+      "implementation": "./dist/karma.js",
+      "schema": "./karma-schema.json",
+      "description": "Custom Angular Karma Builder"
+    }
+  }
+}
