@@ -120,6 +120,19 @@ module.exports = function (config, context) {
 };
 ```
 
+### Automatic Folder Extraction for Custom Webpack Files
+
+If you include a custom Webpack file in your build process, this package will automatically extract and create the following folder structure:
+
+```
+.webpack/
+├── webpack.original.snapshot
+├── webpack.merged.snapshot
+```
+
+- `webpack.original.snapshot`: Contains the original Webpack configuration before your custom changes.
+- `webpack.merged.snapshot`: Contains the final Webpack configuration after merging your custom configuration.
+
 #### Contribution and Support
 
 For issues or feature requests, please file an issue on the [GitHub repository](https://github.com/bdxygy/angular-buildx-webpack).
