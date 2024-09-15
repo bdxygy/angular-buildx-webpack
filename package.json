@@ -1,14 +1,21 @@
 {
   "name": "@angular-buildx/webpack",
-  "version": "0.0.1",
-  "description": "",
+  "version": "16.0.0",
+  "description": "A custom Angular CLI builder for extending Webpack configuration in Angular projects.",
   "scripts": {
     "clear": "rimraf ./dist",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "angular",
+    "webpack",
+    "builder",
+    "custom-webpack",
+    "angular-cli",
+    "angular-build"
+  ],
+  "author": "bdxygy <bdxygy@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.5.4",
     "rimraf": "^6.0.1",
@@ -19,8 +26,15 @@
   "dependencies": {
     "@angular-devkit/architect": "0.1602.15",
     "@angular-devkit/build-angular": "16",
-    "@angular-devkit/core": "16",
-    "webpack-merge": "^6.0.1"
+    "@angular-devkit/core": "16"
   },
-  "builders": "builders.json"
+  "builders": "builders.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdxygy/angular-buildx-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bdxygy/angular-buildx-webpack/issues"
+  },
+  "homepage": "https://github.com/bdxygy/angular-buildx-webpack#readme"
 }
