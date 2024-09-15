@@ -40,7 +40,7 @@ Example `angular.json` configuration:
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
             "scripts": [],
-            "webpack": "./webpack.config.json"
+            "webpack": "./webpack.config.js"
           }
         }
       }
@@ -64,7 +64,7 @@ Example `angular.json` configuration:
           "builder": "@angular-buildx/webpack:dev-server",
           "options": {
             "browserTarget": "my-app:build",
-            "webpack": "./webpack.config.json"
+            "webpack": "./webpack.config.js"
           }
         }
       }
@@ -90,7 +90,7 @@ Example `angular.json` configuration:
             "main": "src/test.ts",
             "karmaConfig": "./karma.conf.js",
             "tsConfig": "tsconfig.spec.json",
-            "webpack": "./webpack.config.json"
+            "webpack": "./webpack.config.js"
           }
         }
       }
@@ -101,7 +101,7 @@ Example `angular.json` configuration:
 
 #### Webpack Configuration
 
-In each of the configurations above, you can specify the path to a custom Webpack configuration file using the `webpack` option. Here's an example `webpack.config.json` file:
+In each of the configurations above, you can specify the path to a custom Webpack configuration file using the `webpack` option. Here's an example `webpack.config.js` file:
 
 ```js
 /**
