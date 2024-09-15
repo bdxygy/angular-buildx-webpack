@@ -1,6 +1,6 @@
 {
   "name": "@angular-buildx/webpack",
-  "version": "17.0.2",
+  "version": "17.0.4",
   "description": "A custom Angular CLI builder for extending Webpack configuration in Angular projects.",
   "scripts": {
     "clear": "rimraf ./dist",
