@@ -1,6 +1,6 @@
 {
   "name": "@angular-buildx/webpack",
-  "version": "17.0.0",
+  "version": "18.0.0",
   "description": "A custom Angular CLI builder for extending Webpack configuration in Angular projects.",
   "scripts": {
     "clear": "rimraf ./dist",
@@ -17,18 +17,18 @@
   "author": "bdxygy <bdxygy@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@angular/compiler": "17.3.12",
-    "@angular/compiler-cli": "17.3.12",
+    "@angular/compiler": "18.2.4",
+    "@angular/compiler-cli": "18.2.4",
     "@types/node": "^22.5.4",
     "rimraf": "^6.0.1",
     "rxjs": "^7.8.1",
-    "typescript": "^5.4.5",
+    "typescript": "5.5.4",
     "webpack": "^5.94.0"
   },
   "dependencies": {
-    "@angular-devkit/architect": "0.1703.9",
-    "@angular-devkit/build-angular": "^17.3.9",
-    "@angular-devkit/core": "^17.3.9"
+    "@angular-devkit/architect": "0.1802.4",
+    "@angular-devkit/build-angular": "^18.2.4",
+    "@angular-devkit/core": "^18.2.4"
   },
   "builders": "builders.json",
   "repository": {
